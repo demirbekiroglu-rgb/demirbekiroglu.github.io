@@ -4,89 +4,66 @@
 
 Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new things in computer and ı am taking the Ap CSP course. İn this wedbiset you can have a look at my projects
 
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Demir Bekiroğlu | Personal Site</title>
-<meta name="description" content="Personal website of Demir Bekiroğlu" />
-<style>
-body {
-margin: 0;
-font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-background: #ffffff;
-color: #111827;
-line-height: 1.6;
-}
-header {
-background: #111827;
-color: #ffffff;
-padding: 12px 20px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-.logo {
-font-weight: bold;
-font-size: 20px;
-}
-nav a {
-color: #ffffff;
-margin-left: 20px;
-text-decoration: none;
-font-weight: 500;
-}
-nav a:hover {
-text-decoration: underline;
-}
-.container {
-max-width: 780px;
-margin: 40px auto;
-padding: 0 16px;
-}
-h1 {
-font-size: 28px;
-margin: 0 0 12px 0;
-}
-h2 {
-font-size: 20px;
-margin-top: 32px;
-}
-footer {
-margin-top: 40px;
-padding: 16px;
-font-size: 13px;
-color: #6b7280;
-text-align: center;
-border-top: 1px solid #e5e7eb;
-}
-</style>
+  <meta charset="utf-8">
+  <title>Home | Demir Bekiroğlu</title>
 </head>
 <body>
-<header>
-<div class="logo">Demir Bekiroğlu</div>
-<nav>
-<a href="index.html">Home</a>
-<a href="https://scratch.mit.edu/projects/1212311251/editor" target="_blank">Projects</a>
-<a href="big-ideas.html">Big Ideas</a>
-<a href="documentation.html">Documentation</a>
-</nav>
-</header>
+  <!-- Menü -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="big-ideas.html">Big Ideas</a>
+  </nav>
 
+  <h1>About Me</h1>
+  <p>Hello, I'm Demir Bekiroğlu. I study at Hisar Schools and I'm taking the CSP course.</p>
+</body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Projects | Demir Bekiroğlu</title>
+</head>
+<body>
+  <!-- Menü -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="big-ideas.html">Big Ideas</a>
+  </nav>
 
-<div class="container">
-<h1>About Me</h1>
-<p>Hello, I'm Demir Bekiroğlu. I study at Hisar Schools and I'm taking the CSP course.</p>
-</div>
+  <h1>My Project</h1>
+  <p>You can play my Scratch project by clicking the button below:</p>
+  <p>
+    <a href="https://scratch.mit.edu/projects/1212311251/fullscreen/" target="_blank">
+      <button>Go to My Scratch Project</button>
+    </a>
+  </p>
+</body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Big Ideas | Demir Bekiroğlu</title>
+</head>
+<body>
+  <!-- Menü -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="big-ideas.html">Big Ideas</a>
+  </nav>
 
+  <h1>Big Ideas</h1>
+  <p>1. Collaborating: We worked together as a group, shared the tasks, and helped each other solve problems so that no one got stuck with errors.</p>
 
-<footer>
-<span>© <span id="y"></span> Demir Bekiroğlu</span>
-</footer>
+  <p>2. Program Design & Development: I made simple step-by-step plans, and used easy methods like printing test messages and checking the code in small parts to make the program better.</p>
 
+  <p>3. Program Function & Purpose: I set a clear goal and thought about who would use the program. I organized the input (what the user gives) and the output (what the program shows), divided the program into smaller parts (functions and steps), and carefully wrote everything down so others can understand and reuse it.</p>
 
-<script>
-document.getElementById('y').textContent = new Date().getFullYear();
-</script>
+  <p>4. Finding & Fixing Mistakes: I made small tests, checked unusual situations, and added simple error controls to stop the program from breaking or giving wrong results.</p>
 </body>
 </html>
