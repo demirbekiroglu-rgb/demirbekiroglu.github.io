@@ -67,7 +67,7 @@ border-top: 1px solid #e5e7eb;
 <div class="logo">Demir Bekiroğlu</div>
 <nav>
 <a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
+<a href="https://scratch.mit.edu/projects/1212311251/editor" target="_blank">Projects</a>
 <a href="big-ideas.html">Big Ideas</a>
 <a href="documentation.html">Documentation</a>
 </nav>
