@@ -51,6 +51,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       else if(page === 'documentation') {
         content.innerHTML = `<h1>Documentation</h1>
         <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>`;
+        https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share
       }
       else if(page === 'bigideas') {
         content.innerHTML = `<h1>Big Ideas</h1>
