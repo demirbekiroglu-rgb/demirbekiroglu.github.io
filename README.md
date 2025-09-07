@@ -6,6 +6,7 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +18,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     nav a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; }
     nav a:hover { background-color: #1a73e8; }
     .container { padding: 40px; text-align: center; }
+    iframe { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
   </style>
 </head>
 <body>
@@ -50,8 +52,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       }
       else if(page === 'documentation') {
         content.innerHTML = `<h1>Documentation</h1>
-        <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>`;
-        https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share
+        <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>
+        <iframe src="https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share" allowfullscreen></iframe>`;
       }
       else if(page === 'bigideas') {
         content.innerHTML = `<h1>Big Ideas</h1>
@@ -70,15 +72,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 </body>
 </html>
 
-  
-
  
- 
-  
-
- 
-
-
    
 
 
