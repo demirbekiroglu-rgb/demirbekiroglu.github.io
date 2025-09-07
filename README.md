@@ -6,40 +6,40 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
-
-/ (ana repo)
-│── index.html        → Home
-│── projects.html     → Projects
-│── bigideas.html     → Big Ideas
-│── documentation.html → Documentation
-│── style.css         → Ortak stil dosyası
-
+/* ===== style.css ===== */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
+/* Menü çubuğu */
 nav {
-  background: #333;
-  padding: 10px;
+  background-color: #333;
+  overflow: hidden;
 }
 
+/* Menü linkleri */
 nav a {
+  float: left;
+  display: block;
   color: white;
-  margin: 0 15px;
+  text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
-  font-weight: bold;
 }
 
+/* Üzerine gelince renk değişsin */
 nav a:hover {
-  text-decoration: underline;
+  background-color: #575757;
 }
 
+/* İçerik alanı */
 .container {
   padding: 20px;
 }
 
+
+/* ===== index.html ===== */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,11 +57,13 @@ nav a:hover {
 
   <div class="container">
     <h1>Welcome to My GitHub Page</h1>
-    <p>This is the home page.</p>
+    <p>This is the Home page.</p>
   </div>
 </body>
 </html>
 
+
+/* ===== projects.html ===== */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,6 +88,32 @@ nav a:hover {
 </body>
 </html>
 
+
+/* ===== documentation.html ===== */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="documentation.html">Documentation</a>
+    <a href="bigideas.html">Big Ideas</a>
+  </nav>
+
+  <div class="container">
+    <h1>Documentation</h1>
+    <p>Coming soon...</p>
+  </div>
+</body>
+</html>
+
+
+/* ===== bigideas.html ===== */
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,6 +131,7 @@ nav a:hover {
 
   <div class="container">
     <h1>Big Ideas</h1>
+
     <h2>Collaborating</h2>
     <p>We worked together as a team, shared the work fairly, and supported each other so no one got stuck on a problem.</p>
 
@@ -119,6 +148,13 @@ nav a:hover {
 </html>
 
 
+
+  
+
+ 
+
+
+   
 
 
 
