@@ -5,7 +5,6 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,13 +42,11 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       if(page === 'home') {
         content.innerHTML = '<h1>Welcome to My GitHub Page</h1><p>This is the Home page.</p>';
       }
-   else if(page === 'projects') {
-  content.innerHTML = `<h1>My Projects</h1>
-  <ul>
-    <li><a href="https://scratch.mit.edu/projects/1212311251" target="_blank">Tic Tac Toe (Scratch)</a></li>
-  </ul>`;
-}
-
+      else if(page === 'projects') {
+        content.innerHTML = `<h1>My Projects</h1>
+        <ul>
+          <li><a href="https://scratch.mit.edu/projects/1212311251" target="_blank">Tic Tac Toe (Scratch)</a></li>
+        </ul>
         <h2>Swift Projects</h2>
         <p><b>Swift Calculator</b></p>
         <iframe src="https://www.veed.io/view/6b4cdf7e-c6a5-47b4-b9aa-a65b77e18b02?source=Homepage&panel=share" allowfullscreen></iframe>
@@ -77,17 +74,5 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
 </body>
 </html>
-
-
- 
-   
-
-
-
-
-  
- 
-
-
 
  
