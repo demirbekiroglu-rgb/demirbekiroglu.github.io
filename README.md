@@ -51,7 +51,9 @@ my contact: demirbekiroglu@hisarschool.k12.tr
         <p><b>Swift Calculator</b></p>
         <iframe src="https://www.veed.io/view/6b4cdf7e-c6a5-47b4-b9aa-a65b77e18b02?source=Homepage&panel=share" allowfullscreen></iframe>
         <p><b>Swift Clock</b></p>
-        <iframe src="https://www.veed.io/view/04e02321-e5f0-4c25-98a9-e972da555a02?source=Homepage&panel=share" allowfullscreen></iframe>`;
+        <iframe src="https://www.veed.io/view/04e02321-e5f0-4c25-98a9-e972da555a02?source=Homepage&panel=share" allowfullscreen></iframe>
+        <p><b>Swift Portrait</b></p>
+        <iframe src="https://www.veed.io/view/39fe0445-5037-4e26-b564-203e570d318b?source=Homepage&panel=share" allowfullscreen></iframe>`;
       }
       else if(page === 'documentation') {
         content.innerHTML = `<h1>Documentation</h1>
