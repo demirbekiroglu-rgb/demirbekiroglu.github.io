@@ -1,5 +1,4 @@
 
-
 #Demir Bekiroglu
 
 Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new things in computer and ı am taking the Ap CSP course. İn this wedbiset you can have a look at my projects
@@ -48,7 +47,12 @@ my contact: demirbekiroglu@hisarschool.k12.tr
         content.innerHTML = `<h1>My Projects</h1>
         <ul>
           <li><a href="https://scratch.mit.edu/projects/1212311251" target="_blank">Tic Tac Toe (Scratch)</a></li>
-        </ul>`;
+        </ul>
+        <h2>Swift Projects</h2>
+        <p><b>Swift Calculator</b></p>
+        <iframe src="https://www.veed.io/view/6b4cdf7e-c6a5-47b4-b9aa-a65b77e18b02?source=Homepage&panel=share" allowfullscreen></iframe>
+        <p><b>Swift Clock</b></p>
+        <iframe src="https://www.veed.io/view/04e02321-e5f0-4c25-98a9-e972da555a02?source=Homepage&panel=share" allowfullscreen></iframe>`;
       }
       else if(page === 'documentation') {
         content.innerHTML = `<h1>Documentation</h1>
@@ -71,6 +75,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
 </body>
 </html>
+
 
  
    
