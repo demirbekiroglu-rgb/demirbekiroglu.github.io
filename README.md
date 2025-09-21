@@ -57,24 +57,22 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       }
       else if(page === 'documentation') {
         content.innerHTML = `<h1>Documentation</h1>
-        <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>
-        <iframe src="https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share" allowfullscreen></iframe>`;
+        <p>While I was creating my GitHub page, I got help from classmates and school-recommended support videos, which guided me through some of the design and coding steps. The site is hosted on GitHub Pages and has a clean, easy-to-use design.</p>
+        <p>Big Idea 1 video:</p>
+        <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>`;
       }
       else if(page === 'bigideas') {
         content.innerHTML = `<h1>Big Ideas</h1>
-        <h2>Collaborating</h2>
-        <p>We worked together as a team, shared the work fairly, and supported each other so no one got stuck on a problem.</p>
+        <h2>Collaboration</h2>
+        <p>Working together with classmates helped us share ideas, solve problems more easily, and learn from each other, which improved the overall quality of the work.</p>
         <h2>Program Design & Development</h2>
-        <p>I made a simple plan with clear steps and tested small parts of the code using print checks to improve the program.</p>
+        <p>Planning, creating, and organizing the program from start to finish helped the program work properly, meet user needs, stay easy to update, and be adaptable to future changes.</p>
         <h2>Program Function & Purpose</h2>
-        <p>I set a clear goal, thought about the users, organized inputs and outputs, divided the program into smaller parts, and explained everything in a way that others can understand.</p>
-        <h2>Finding & Fixing Mistakes</h2>
-        <p>I ran small tests, checked different situations, and added basic error controls to keep the program working correctly.</p>`;
+        <p>Understanding the program's function and purpose helped guide the design process, ensured the program met its goals, and provided a clear direction for users and developers.</p>
+        <h2>Identifying & Correcting Errors</h2>
+        <p>Finding mistakes in the code and fixing them helped the program work correctly, avoided bigger problems later, and improved coding and problem-solving skills.</p>`;
       }
     }
   </script>
-
 </body>
 </html>
-
- 
