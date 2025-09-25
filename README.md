@@ -53,7 +53,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Swift Clock</b></p>
           <iframe src="https://www.veed.io/view/04e02321-e5f0-4c25-98a9-e972da555a02?source=Homepage&panel=share" allowfullscreen></iframe>
           <p><b>Swift Clock v2</b></p>
-          <iframe src="https://www.veed.io/view/cecceb1f-9b59-4bb4-ad02-395114f66ca2?source=Homepage&panel=share" allowfullscreen></iframe>
+          <iframe src="https://www.veed.io/view/2a05f650-1306-480e-aed0-a7673cbd828d?source=Homepage&panel=share" allowfullscreen></iframe>
           <p><b>Swift Portrait</b></p>
           <iframe src="https://www.veed.io/view/39fe0445-5037-4e26-b564-203e570d318b?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
@@ -85,5 +85,4 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
-
 
