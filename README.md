@@ -16,7 +16,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     nav a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; }
     nav a:hover { background-color: #1a73e8; }
     .container { padding: 40px; text-align: center; }
-    iframe { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
+    iframe, img { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
+    img { object-fit: contain; }
   </style>
 </head>
 <body>
@@ -59,7 +60,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Swift Clock V5</b></p>
           <iframe src="https://www.veed.io/view/22d0019e-a29a-48a4-ae06-ff72a8d56f52?source=Homepage&panel=share" allowfullscreen></iframe>
           <p><b>Binary Counter</b></p>
-          <iframe src="https://www.veed.io/view/YOUR_BINARY_COUNTER_VIDEO_LINK?source=Homepage&panel=share" allowfullscreen></iframe>
+          <img src="YOUR_BINARY_COUNTER_IMAGE_LINK" alt="Binary Counter">
         `;
       } 
       else if(page === 'documentation') {
