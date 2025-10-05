@@ -58,6 +58,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <iframe src="https://www.veed.io/view/39fe0445-5037-4e26-b564-203e570d318b?source=Homepage&panel=share" allowfullscreen></iframe>
           <p><b>Swift Clock V5</b></p>
           <iframe src="https://www.veed.io/view/22d0019e-a29a-48a4-ae06-ff72a8d56f52?source=Homepage&panel=share" allowfullscreen></iframe>
+          <p><b>Binary Counter</b></p>
+          <iframe src="https://www.veed.io/view/YOUR_BINARY_COUNTER_VIDEO_LINK?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } 
       else if(page === 'documentation') {
