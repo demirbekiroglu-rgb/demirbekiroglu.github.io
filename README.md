@@ -16,8 +16,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     nav a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; }
     nav a:hover { background-color: #1a73e8; }
     .container { padding: 40px; text-align: center; }
-    iframe, img { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
-    img { object-fit: contain; }
+    iframe { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
   </style>
 </head>
 <body>
@@ -40,30 +39,37 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
     function showPage(page) {
       if(page === 'home') {
-        content.innerHTML = '<h1>Welcome to My GitHub Page</h1><p>This is the Home page.</p>';
-      } 
-      else if(page === 'projects') {
+        content.innerHTML = `
+          <h1>Welcome to My GitHub Page</h1>
+          <p>This is the Home page.</p>
+        `;
+      } else if(page === 'projects') {
         content.innerHTML = `
           <h1>My Projects</h1>
           <ul>
             <li><a href="https://scratch.mit.edu/projects/1212311251" target="_blank">Tic Tac Toe (Scratch)</a></li>
           </ul>
+
           <h2>Swift Projects</h2>
           <p><b>Swift Calculator</b></p>
           <iframe src="https://www.veed.io/view/6b4cdf7e-c6a5-47b4-b9aa-a65b77e18b02?source=Homepage&panel=share" allowfullscreen></iframe>
+
           <p><b>Swift Clock</b></p>
           <iframe src="https://www.veed.io/view/04e02321-e5f0-4c25-98a9-e972da555a02?source=Homepage&panel=share" allowfullscreen></iframe>
+
           <p><b>Swift Clock v2</b></p>
           <iframe src="https://www.veed.io/view/2a05f650-1306-480e-aed0-a7673cbd828d?source=Homepage&panel=share" allowfullscreen></iframe>
+
           <p><b>Swift Portrait</b></p>
           <iframe src="https://www.veed.io/view/39fe0445-5037-4e26-b564-203e570d318b?source=Homepage&panel=share" allowfullscreen></iframe>
+
           <p><b>Swift Clock V5</b></p>
           <iframe src="https://www.veed.io/view/22d0019e-a29a-48a4-ae06-ff72a8d56f52?source=Homepage&panel=share" allowfullscreen></iframe>
+
           <p><b>Binary Counter</b></p>
-          <img src="YOUR_BINARY_COUNTER_IMAGE_LINK" alt="Binary Counter">
+          <iframe src="https://www.veed.io/view/aa67b583-fa46-43cb-8b84-ab5a6f20627b?source=editor&panel=share" allowfullscreen></iframe>
         `;
-      } 
-      else if(page === 'documentation') {
+      } else if(page === 'documentation') {
         content.innerHTML = `
           <h1>Documentation</h1>
           <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>
@@ -72,8 +78,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Big Idea 1 Video:</b></p>
           <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
-      } 
-      else if(page === 'bigideas') {
+      } else if(page === 'bigideas') {
         content.innerHTML = `
           <h1>Big Ideas</h1>
           <h2>Collaborating</h2>
