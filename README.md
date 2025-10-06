@@ -75,6 +75,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>
           <iframe src="https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share" allowfullscreen></iframe>
           <p><b>Additional GitHub Documentation:</b> While I was creating my GitHub page, I got help from classmates and school-recommended support videos, which guided me through some of the design and coding steps. The site is hosted on GitHub Pages and has a clean, easy-to-use design.</p>
+          <p><b>Clock Documentation:</b> This is a simple Clock App made with Swift. It shows the current hour and minute, and the time increases each time a button is pressed. I created this app with help from the classroom videos and documents, which guided me in using Swift and adding interactive features.</p>
           <p><b>Big Idea 1 Video:</b></p>
           <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
@@ -95,3 +96,4 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
+
