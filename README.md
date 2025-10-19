@@ -68,6 +68,9 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>Binary Counter</b></p>
           <iframe src="https://www.veed.io/view/aa67b583-fa46-43cb-8b84-ab5a6f20627b?source=editor&panel=share" allowfullscreen></iframe>
+
+          <p><b>Frog Escape Game</b></p>
+          <iframe src="https://www.veed.io/view/2c99f495-7736-43ec-b7a8-030703152e90?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if(page === 'documentation') {
         content.innerHTML = `
@@ -115,4 +118,5 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
+
 
