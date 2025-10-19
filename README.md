@@ -13,7 +13,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   <style>
     body { margin: 0; font-family: Arial, sans-serif; }
     nav { background-color: #333; display: flex; justify-content: center; }
-    nav a { color: white; padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; }
+    nav a { color: #FFFFFF; padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; }
     nav a:hover { background-color: #1a73e8; }
     .container { padding: 40px; text-align: center; }
     iframe { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
@@ -115,5 +115,3 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
-
-
