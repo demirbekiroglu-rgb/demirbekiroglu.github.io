@@ -5,8 +5,7 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -106,6 +105,98 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Clock Documentation:</b> This is a simple Clock App made with Swift. It shows the current hour and minute, and the time increases each time a button is pressed. I created this app with help from the classroom videos and documents, which guided me in using Swift and adding interactive features.</p>
           <p><b>Big Idea 1 Video:</b></p>
           <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <h2>Project Descriptions</h2>
+
+          <h3>1. Scratch Tic Tac Toe</h3>
+          <p><b>Description:</b> A simple Tic Tac Toe game built using Swift, allowing two players to play on the same device.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>3x3 grid</li>
+            <li>Two-player turn system</li>
+            <li>Detects wins and draws</li>
+          </ul>
+          <p><b>Note:</b> I built this project using Swift and SwiftUI to practice basic game logic and UI.</p>
+
+          <h3>2. Swift Tic Tac Toe</h3>
+          <p><b>Description:</b> A more advanced version of Tic Tac Toe with improved UI and state management in Swift.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Interactive grid using SwiftUI</li>
+            <li>Tracks player turns</li>
+            <li>Highlights the winning combination</li>
+          </ul>
+          <p><b>Note:</b> I used Swift and SwiftUI to implement state management and interactive UI.</p>
+
+          <h3>3. Self Portrait</h3>
+          <p><b>Description:</b> A creative project where you draw a self-portrait using SwiftUI shapes and colors.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Uses rectangles, circles, and paths</li>
+            <li>Customizable facial features</li>
+            <li>Explores SwiftUI drawing techniques</li>
+          </ul>
+          <p><b>Note:</b> I used SwiftUI to practice shapes, paths, and creative UI design.</p>
+
+          <h3>4. Calculator</h3>
+          <p><b>Description:</b> A basic calculator app that performs arithmetic operations.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Addition, subtraction, multiplication, division</li>
+            <li>Clear and equals buttons</li>
+            <li>Simple SwiftUI interface</li>
+          </ul>
+          <p><b>Note:</b> I built this project using Swift and SwiftUI to understand button actions and arithmetic logic.</p>
+
+          <h3>5. Binary Counter</h3>
+          <p><b>Description:</b> A small app to explore binary numbers using a counter.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Increments and decrements values</li>
+            <li>Shows binary equivalent</li>
+            <li>Teaches binary counting visually</li>
+          </ul>
+          <p><b>Note:</b> I used Swift and SwiftUI to visualize binary numbers and counters interactively.</p>
+
+          <h3>6. Ice Cream Over Flow</h3>
+          <p><b>Description:</b> A fun stacking game where you add ice cream scoops without overflowing.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Tap to add scoops</li>
+            <li>Tracks the number of scoops</li>
+            <li>Uses colors to differentiate scoops</li>
+          </ul>
+          <p><b>Note:</b> I implemented this game using Swift and SwiftUI to learn about states and animations.</p>
+
+          <h3>7. Extracting Information from Data</h3>
+          <p><b>Description:</b> A project that reads and analyzes data in Swift.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Parses text or numbers</li>
+            <li>Extracts meaningful information</li>
+            <li>Useful for learning basic data processing</li>
+          </ul>
+          <p><b>Note:</b> I used Swift to practice reading, parsing, and processing data.</p>
+
+          <h3>8. Data Compression</h3>
+          <p><b>Description:</b> Explores lossless and lossy compression techniques using Swift.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Compresses text, images, or audio</li>
+            <li>Demonstrates difference between compression types</li>
+            <li>Visualizes effects of compression</li>
+          </ul>
+          <p><b>Note:</b> I implemented this project using Swift to understand compression concepts in programming.</p>
+
+          <h3>9. Frog Escape Challenge</h3>
+          <p><b>Description:</b> A game where a frog moves across the screen avoiding obstacles while time passes.</p>
+          <p><b>Features:</b></p>
+          <ul>
+            <li>Moving frog character</li>
+            <li>Obstacle avoidance</li>
+            <li>Increasing difficulty with levels</li>
+          </ul>
+          <p><b>Note:</b> I built this game using Swift and SwiftUI to learn about moving objects, collisions, and game logic.</p>
         `;
       } else if (page === 'bigideas') {
         content.innerHTML = `
