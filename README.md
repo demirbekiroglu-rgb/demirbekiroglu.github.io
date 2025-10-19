@@ -5,7 +5,8 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -71,6 +72,9 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>Frog Escape Game</b></p>
           <iframe src="https://www.veed.io/view/2c99f495-7736-43ec-b7a8-030703152e90?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <p><b>Swift XOX</b></p>
+          <iframe src="https://www.veed.io/view/d29a64ad-71e7-45b9-961a-57b6b0eddfb0?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if(page === 'documentation') {
         content.innerHTML = `
@@ -118,5 +122,4 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
-
 
