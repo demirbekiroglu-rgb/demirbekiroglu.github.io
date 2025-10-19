@@ -20,7 +20,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </style>
 </head>
 <body>
-  <!-- Menü -->
+
   <nav>
     <a onclick="showPage('home')" style="color: #FFFFFF;">Home</a>
     <a onclick="showPage('projects')" style="color: #FFFFFF;">Projects</a>
@@ -28,7 +28,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     <a onclick="showPage('bigideas')" style="color: #FFFFFF;">Big Ideas</a>
   </nav>
 
-  <!-- İçerik alanı -->
+  
   <div class="container" id="content">
     <h1>Welcome to My GitHub Page</h1>
     <p>This is the Home page.</p>
@@ -38,14 +38,34 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     const content = document.getElementById('content');
 
     function showPage(page) {
-      if(page === 'home') {
+      if (page === 'home') {
         content.innerHTML = `
           <h1>Welcome to My GitHub Page</h1>
           <p>This is the Home page.</p>
         `;
-      } else if(page === 'projects') {
+      } else if (page === 'projects') {
         content.innerHTML = `
           <h1>My Projects</h1>
+
+          <!-- 🔵 ÇALIŞAN ve STİLİ SABİT BUTON -->
+          <a href="https://github.com/demirbekiroglu-rgb/demirbekiroglu.github.io" target="_blank" 
+             style="
+               display: inline-block;
+               background-color: #1a73e8;
+               color: #ffffff;
+               padding: 12px 24px;
+               border-radius: 8px;
+               text-decoration: none;
+               font-weight: bold;
+               font-size: 16px;
+               margin-bottom: 20px;
+               transition: background-color 0.3s;
+             "
+             onmouseover="this.style.backgroundColor='#155ab6'"
+             onmouseout="this.style.backgroundColor='#1a73e8'">
+             Press for Codes
+          </a>
+
           <ul>
             <li><a href="https://scratch.mit.edu/projects/1212311251" target="_blank">Tic Tac Toe (Scratch)</a></li>
           </ul>
@@ -78,7 +98,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Ice Cream Overflow</b></p>
           <iframe src="https://www.veed.io/view/ed8fa209-8812-43a7-bdc5-479e6037d8db?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
-      } else if(page === 'documentation') {
+      } else if (page === 'documentation') {
         content.innerHTML = `
           <h1>Documentation</h1>
           <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>
@@ -88,45 +108,32 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Big Idea 1 Video:</b></p>
           <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
-      } else if(page === 'bigideas') {
+      } else if (page === 'bigideas') {
         content.innerHTML = `
           <h1>Big Ideas</h1>
-
           <h2>Collaborating</h2>
           <p>We worked together as a team, shared the work fairly, and supported each other so no one got stuck on a problem.</p>
-
           <h2>Program Design & Development</h2>
           <p>I made a simple plan with clear steps and tested small parts of the code using print checks to improve the program.</p>
-
           <h2>Program Function & Purpose</h2>
           <p>I set a clear goal, thought about the users, organized inputs and outputs, divided the program into smaller parts, and explained everything in a way that others can understand.</p>
-
           <h2>Finding & Fixing Mistakes</h2>
           <p>I ran small tests, checked different situations, and added basic error controls to keep the program working correctly.</p>
-
           <hr>
           <h1>Big Idea 2</h1>
-
           <h2>Algorithms & Programming</h2>
           <p>I used simple algorithms to make my program work step by step. I tested each part to be sure it gave the right result.</p>
-
           <h2>Variables & Data</h2>
           <p>I used variables to store and change information in the program. This helped me keep the data organized and easy to update.</p>
-
           <h2>Control Structures</h2>
           <p>I used if statements to make decisions and loops to repeat actions. They made my program smarter and more efficient.</p>
-
           <h2>Abstraction</h2>
           <p>I divided my code into smaller, clear parts. This made it easier to read, understand, and fix any problems.</p>
         `;
       }
     }
+
+    showPage('home');
   </script>
 </body>
 </html>
-
- 
-
-
-
-     
