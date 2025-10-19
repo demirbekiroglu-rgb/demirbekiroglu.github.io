@@ -5,7 +5,8 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,7 +21,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </style>
 </head>
 <body>
-
+  <!-- Menü -->
   <nav>
     <a onclick="showPage('home')" style="color: #FFFFFF;">Home</a>
     <a onclick="showPage('projects')" style="color: #FFFFFF;">Projects</a>
@@ -28,7 +29,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     <a onclick="showPage('bigideas')" style="color: #FFFFFF;">Big Ideas</a>
   </nav>
 
-  
+  <!-- İçerik alanı -->
   <div class="container" id="content">
     <h1>Welcome to My GitHub Page</h1>
     <p>This is the Home page.</p>
@@ -46,8 +47,6 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       } else if (page === 'projects') {
         content.innerHTML = `
           <h1>My Projects</h1>
-
-          <!-- 🔵 ÇALIŞAN ve STİLİ SABİT BUTON -->
           <a href="https://github.com/demirbekiroglu-rgb/demirbekiroglu.github.io" target="_blank" 
              style="
                display: inline-block;
@@ -111,22 +110,33 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       } else if (page === 'bigideas') {
         content.innerHTML = `
           <h1>Big Ideas</h1>
+
           <h2>Collaborating</h2>
           <p>We worked together as a team, shared the work fairly, and supported each other so no one got stuck on a problem.</p>
+
           <h2>Program Design & Development</h2>
           <p>I made a simple plan with clear steps and tested small parts of the code using print checks to improve the program.</p>
+
           <h2>Program Function & Purpose</h2>
           <p>I set a clear goal, thought about the users, organized inputs and outputs, divided the program into smaller parts, and explained everything in a way that others can understand.</p>
+
           <h2>Finding & Fixing Mistakes</h2>
           <p>I ran small tests, checked different situations, and added basic error controls to keep the program working correctly.</p>
+
           <hr>
           <h1>Big Idea 2</h1>
+          <p><b>Big Idea 2 Video:</b></p>
+          <iframe src="https://www.veed.io/view/22f6a870-f27f-4752-a8f3-f952d67a2640?source=Homepage&panel=share" allowfullscreen></iframe>
+
           <h2>Algorithms & Programming</h2>
           <p>I used simple algorithms to make my program work step by step. I tested each part to be sure it gave the right result.</p>
+
           <h2>Variables & Data</h2>
           <p>I used variables to store and change information in the program. This helped me keep the data organized and easy to update.</p>
+
           <h2>Control Structures</h2>
           <p>I used if statements to make decisions and loops to repeat actions. They made my program smarter and more efficient.</p>
+
           <h2>Abstraction</h2>
           <p>I divided my code into smaller, clear parts. This made it easier to read, understand, and fix any problems.</p>
         `;
