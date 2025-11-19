@@ -5,6 +5,8 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,6 +97,10 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>Ice Cream Overflow</b></p>
           <iframe src="https://www.veed.io/view/ed8fa209-8812-43a7-bdc5-479e6037d8db?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <!-- ⭐ Yeni Eklenen Country List Projesi ⭐ -->
+          <p><b>Country List</b></p>
+          <iframe src="https://www.veed.io/view/30e2dfcf-ca42-44e2-83f6-e6c467b66c15?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if (page === 'documentation') {
         content.innerHTML = `
@@ -156,7 +162,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
             <li>Shows binary equivalent</li>
             <li>Teaches binary counting visually</li>
           </ul>
-          <p><b>Note:</b> I used Swift and SwiftUI to visualize binary numbers and counters interactively.</p>
+          <p><b>Note:</b> I used Swift and SwiftUI to visualize binary numbers and 
+          counters interactively.</p>
 
           <h3>6. Ice Cream Over Flow</h3>
           <p><b>Description:</b> A fun stacking game where you add ice cream scoops without overflowing.</p>
@@ -233,8 +240,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
         `;
       }
     }
-
-    showPage('home');
   </script>
 </body>
 </html>
+
