@@ -4,7 +4,6 @@
 Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new things in computer and ı am taking the Ap CSP course. İn this wedbiset you can have a look at my projects
 
 my contact: demirbekiroglu@hisarschool.k12.tr
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,35 +102,41 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <!-- ⭐ Yeni Eklenen Music List Projesi ⭐ -->
           <p><b>Music List</b></p>
           <iframe src="https://www.veed.io/view/f8259bcd-79ac-4b3b-96b9-8daacb504490?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <!-- ⭐ YENİ EKLENEN ICE CREAM LIST PROJESİ ⭐ -->
+          <p><b>Ice Cream List</b></p>
+          <iframe src="https://www.veed.io/view/6ebe74d5-9140-4a69-aa94-0fb3363a1288?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if (page === 'documentation') {
         content.innerHTML = `
           <h1>Documentation</h1>
-          <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced. This game consists of 9 squares X and O. The first person that can make 3 lines wins. While I was coding, I used YouTube for help.</p>
+          <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced...</p>
           <iframe src="https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share" allowfullscreen></iframe>
-          <p><b>Additional GitHub Documentation:</b> While I was creating my GitHub page, I got help from classmates and school-recommended support videos, which guided me through some of the design and coding steps. The site is hosted on GitHub Pages and has a clean, easy-to-use design.</p>
-          <p><b>Clock Documentation:</b> This is a simple Clock App made with Swift. It shows the current hour and minute, and the time increases each time a button is pressed. I created this app with help from the classroom videos and documents, which guided me in using Swift and adding interactive features.</p>
+
+          <p><b>Additional GitHub Documentation:</b> While I was creating my GitHub page...</p>
+
+          <p><b>Clock Documentation:</b> This is a simple Clock App...</p>
+
           <p><b>Big Idea 1 Video:</b></p>
           <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>
 
           <h2>Project Descriptions</h2>
-          <!-- existing descriptions here -->
         `;
       } else if (page === 'bigideas') {
         content.innerHTML = `
           <h1>Big Ideas</h1>
 
           <h2>Collaborating</h2>
-          <p>We worked together as a team, shared the work fairly, and supported each other so no one got stuck on a problem.</p>
+          <p>We worked together as a team...</p>
 
           <h2>Program Design & Development</h2>
-          <p>I made a simple plan with clear steps and tested small parts of the code using print checks to improve the program.</p>
+          <p>I made a simple plan with clear steps...</p>
 
           <h2>Program Function & Purpose</h2>
-          <p>I set a clear goal, thought about the users, organized inputs and outputs, divided the program into smaller parts, and explained everything in a way that others can understand.</p>
+          <p>I set a clear goal, thought about the users...</p>
 
           <h2>Finding & Fixing Mistakes</h2>
-          <p>I ran small tests, checked different situations, and added basic error controls to keep the program working correctly.</p>
+          <p>I ran small tests, checked different situations...</p>
 
           <hr>
           <h1>Big Idea 2</h1>
@@ -139,20 +144,21 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <iframe src="https://www.veed.io/view/22f6a870-f27f-4752-a8f3-f952d67a2640?source=Homepage&panel=share" allowfullscreen></iframe>
 
           <h2>Algorithms & Programming</h2>
-          <p>I used simple algorithms to make my program work step by step. I tested each part to be sure it gave the right result.</p>
+          <p>I used simple algorithms...</p>
 
           <h2>Variables & Data</h2>
-          <p>I used variables to store and change information in the program. This helped me keep the data organized and easy to update.</p>
+          <p>I used variables to store and change information...</p>
 
           <h2>Control Structures</h2>
-          <p>I used if statements to make decisions and loops to repeat actions. They made my program smarter and more efficient.</p>
+          <p>I used if statements to make decisions...</p>
 
           <h2>Abstraction</h2>
-          <p>I divided my code into smaller, clear parts. This made it easier to read, understand, and fix any problems.</p>
+          <p>I divided my code into smaller parts...</p>
         `;
       } }
   </script>
 </body>
 </html>
+
 
 
