@@ -4,6 +4,7 @@
 Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new things in computer and ı am taking the Ap CSP course. İn this wedbiset you can have a look at my projects
 
 my contact: demirbekiroglu@hisarschool.k12.tr
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +20,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </style>
 </head>
 <body>
-  <!-- Menü -->
+  <!-- Menu -->
   <nav>
     <a onclick="showPage('home')" style="color: #FFFFFF;">Home</a>
     <a onclick="showPage('projects')" style="color: #FFFFFF;">Projects</a>
@@ -27,7 +28,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
     <a onclick="showPage('bigideas')" style="color: #FFFFFF;">Big Ideas</a>
   </nav>
 
-  <!-- İçerik alanı -->
+  <!-- Content Area -->
   <div class="container" id="content">
     <h1>Welcome to My GitHub Page</h1>
     <p>This is the Home page.</p>
@@ -95,32 +96,56 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Ice Cream Overflow</b></p>
           <iframe src="https://www.veed.io/view/ed8fa209-8812-43a7-bdc5-479e6037d8db?source=Homepage&panel=share" allowfullscreen></iframe>
 
-          <!-- ⭐ Yeni Eklenen Country List Projesi ⭐ -->
           <p><b>Country List</b></p>
           <iframe src="https://www.veed.io/view/30e2dfcf-ca42-44e2-83f6-e6c467b66c15?source=Homepage&panel=share" allowfullscreen></iframe>
 
-          <!-- ⭐ Yeni Eklenen Music List Projesi ⭐ -->
           <p><b>Music List</b></p>
           <iframe src="https://www.veed.io/view/f8259bcd-79ac-4b3b-96b9-8daacb504490?source=Homepage&panel=share" allowfullscreen></iframe>
 
-          <!-- ⭐ YENİ EKLENEN ICE CREAM LIST PROJESİ ⭐ -->
           <p><b>Ice Cream List</b></p>
           <iframe src="https://www.veed.io/view/6ebe74d5-9140-4a69-aa94-0fb3363a1288?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if (page === 'documentation') {
         content.innerHTML = `
           <h1>Documentation</h1>
+
+          <h2>Videos</h2>
           <p>While making the Tic Tac Toe game on Scratch I had some problems that I faced...</p>
           <iframe src="https://www.veed.io/view/c98e36c4-bfce-414b-b2c0-e11ee2e02490?panel=share" allowfullscreen></iframe>
 
           <p><b>Additional GitHub Documentation:</b> While I was creating my GitHub page...</p>
-
           <p><b>Clock Documentation:</b> This is a simple Clock App...</p>
 
           <p><b>Big Idea 1 Video:</b></p>
           <iframe src="https://www.veed.io/view/ae2a9791-c4a5-456a-adef-fea392229777?source=Homepage&panel=share" allowfullscreen></iframe>
 
           <h2>Project Descriptions</h2>
+
+          <p><b>Tic Tac Toe (Scratch):</b> This project recreates the classic two-player Tic Tac Toe game using Scratch logic blocks. The program checks all winning combinations and announces the result automatically.</p>
+
+          <p><b>Swift Calculator:</b> This app performs basic arithmetic operations in a clean and simple interface. It is built using SwiftUI to provide a smooth and user-friendly experience.</p>
+
+          <p><b>Swift Clock:</b> A real-time clock app that updates continuously using the system time. It displays the current time in a minimal and clear layout.</p>
+
+          <p><b>Swift Clock v2:</b> This version improves the clock app with a redesigned interface and smoother animations. It focuses on cleaner code and better performance.</p>
+
+          <p><b>Swift Portrait:</b> This project displays a user avatar or image inside a simple SwiftUI layout. It demonstrates how to structure visual elements in a clean design.</p>
+
+          <p><b>Swift Clock V5:</b> A more advanced version of the clock app featuring a modern and polished UI. It offers improved responsiveness and better time-update handling.</p>
+
+          <p><b>Binary Counter:</b> This app counts numbers in binary format and updates the display in real time. It helps visualize how binary numbers work in computing.</p>
+
+          <p><b>Frog Escape Game:</b> A simple game where a frog tries to escape obstacles. It uses basic animation and collision logic to create gameplay.</p>
+
+          <p><b>Swift XOX:</b> A SwiftUI version of the Tic Tac Toe game with a clean interface. The app checks for winning combinations and prevents illegal moves.</p>
+
+          <p><b>Ice Cream Overflow:</b> This small project simulates an ice cream stacking effect, showing how items overflow visually. It demonstrates layout behavior in SwiftUI lists and stacks.</p>
+
+          <p><b>Country List:</b> This project displays a scrollable list of countries with clean formatting. It demonstrates list creation and dynamic content in SwiftUI.</p>
+
+          <p><b>Music List:</b> A simple app that organizes and displays a list of songs. It shows how SwiftUI handles lists, text, and basic data structures.</p>
+
+          <p><b>Ice Cream List:</b> A fun list app that displays different ice cream flavors. It is designed using SwiftUI to show basic list formatting and layout.</p>
         `;
       } else if (page === 'bigideas') {
         content.innerHTML = `
@@ -155,10 +180,12 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <h2>Abstraction</h2>
           <p>I divided my code into smaller parts...</p>
         `;
-      } }
+      }
+    }
   </script>
 </body>
 </html>
+
 
 
 
