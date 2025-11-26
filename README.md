@@ -104,6 +104,9 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>Ice Cream List</b></p>
           <iframe src="https://www.veed.io/view/6ebe74d5-9140-4a69-aa94-0fb3363a1288?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <p><b>Pixel Art</b></p>
+          <iframe src="https://www.veed.io/view/0f832183-31b9-4ceb-a0cb-23688217e000?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if (page === 'documentation') {
         content.innerHTML = `
@@ -146,6 +149,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Music List:</b> A simple app that organizes and displays a list of songs. It shows how SwiftUI handles lists, text, and basic data structures.</p>
 
           <p><b>Ice Cream List:</b> A fun list app that displays different ice cream flavors. It is designed using SwiftUI to show basic list formatting and layout.</p>
+
+          <p><b>Pixel Art:</b> A mini-project where users can create a 10x10 pixel art grid. It demonstrates the use of SwiftUI, loops, and user input for interactive graphics.</p>
         `;
       } else if (page === 'bigideas') {
         content.innerHTML = `
