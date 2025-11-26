@@ -107,6 +107,9 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>Pixel Art</b></p>
           <iframe src="https://www.veed.io/view/0f832183-31b9-4ceb-a0cb-23688217e000?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <p><b>My Initials</b></p>
+          <iframe src="https://www.veed.io/view/71fd024e-414b-4287-b64d-733f4993da62?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if (page === 'documentation') {
         content.innerHTML = `
@@ -151,6 +154,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Ice Cream List:</b> A fun list app that displays different ice cream flavors. It is designed using SwiftUI to show basic list formatting and layout.</p>
 
           <p><b>Pixel Art:</b> A mini-project where users can create a 10x10 pixel art grid. It demonstrates the use of SwiftUI, loops, and user input for interactive graphics.</p>
+
+          <p><b>My Initials:</b> A creative mini-project where users can draw or display their initials using SwiftUI. It demonstrates handling shapes, colors, and user interaction.</p>
         `;
       } else if (page === 'bigideas') {
         content.innerHTML = `
@@ -190,6 +195,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
+
 
 
 
