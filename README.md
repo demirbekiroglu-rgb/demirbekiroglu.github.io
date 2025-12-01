@@ -110,6 +110,9 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>My Initials</b></p>
           <iframe src="https://www.veed.io/view/71fd024e-414b-4287-b64d-733f4993da62?source=Homepage&panel=share" allowfullscreen></iframe>
+          
+          <p><b>Spinner Simulation</b></p>
+          <iframe src="https://www.veed.io/view/427fd876-1665-4f81-8a1d-68c863542fa7?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
       } else if (page === 'documentation') {
         content.innerHTML = `
@@ -156,6 +159,8 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <p><b>Pixel Art:</b> A mini-project where users can create a 10x10 pixel art grid. It demonstrates the use of SwiftUI, loops, and user input for interactive graphics.</p>
 
           <p><b>My Initials:</b> A creative mini-project where users can draw or display their initials using SwiftUI. It demonstrates handling shapes, colors, and user interaction.</p>
+
+          <p><b>Spinner Simulation:</b> A Swift project simulating a spinner with nested conditionals. The video shows how the spinner chooses a color and displays it.</p>
         `;
       } else if (page === 'bigideas') {
         content.innerHTML = `
@@ -195,6 +200,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   </script>
 </body>
 </html>
+
 
 
 
