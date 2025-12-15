@@ -5,6 +5,7 @@ Hi ı am Demir Bekiroglu. I am a student in Hisar School. I enjoy creating new t
 
 my contact: demirbekiroglu@hisarschool.k12.tr
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -124,7 +125,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
         `;
       } 
 
-      
+      /* DOCUMENTATION — UNCHANGED */
       else if (page === 'documentation') {
         content.innerHTML = `
           <h1>Documentation</h1>
@@ -215,11 +216,6 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
 </body>
 </html>
-
-
-
-
-
 
 
 
