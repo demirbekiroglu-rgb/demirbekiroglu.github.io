@@ -13,19 +13,20 @@ my contact: demirbekiroglu@hisarschool.k12.tr
   <style>
     body { margin: 0; font-family: Arial, sans-serif; }
     nav { background-color: #333; display: flex; justify-content: center; }
-    nav a { padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; }
+    nav a { padding: 14px 20px; text-decoration: none; font-weight: bold; cursor: pointer; color: #FFFFFF; }
     nav a:hover { background-color: #1a73e8; }
     .container { padding: 40px; text-align: center; }
     iframe { margin-top: 20px; max-width: 100%; height: 400px; border: none; }
   </style>
 </head>
 <body>
+
   <!-- Menu -->
   <nav>
-    <a onclick="showPage('home')" style="color: #FFFFFF;">Home</a>
-    <a onclick="showPage('projects')" style="color: #FFFFFF;">Projects</a>
-    <a onclick="showPage('documentation')" style="color: #FFFFFF;">Documentation</a>
-    <a onclick="showPage('bigideas')" style="color: #FFFFFF;">Big Ideas</a>
+    <a onclick="showPage('home')">Home</a>
+    <a onclick="showPage('projects')">Projects</a>
+    <a onclick="showPage('documentation')">Documentation</a>
+    <a onclick="showPage('bigideas')">Big Ideas</a>
   </nav>
 
   <!-- Content Area -->
@@ -43,9 +44,12 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           <h1>Welcome to My GitHub Page</h1>
           <p>This is the Home page.</p>
         `;
-      } else if (page === 'projects') {
+      } 
+
+      else if (page === 'projects') {
         content.innerHTML = `
           <h1>My Projects</h1>
+
           <a href="https://github.com/demirbekiroglu-rgb/demirbekiroglu.github.io" target="_blank" 
              style="
                display: inline-block;
@@ -69,6 +73,7 @@ my contact: demirbekiroglu@hisarschool.k12.tr
           </ul>
 
           <h2>Swift Projects</h2>
+
           <p><b>Swift Calculator</b></p>
           <iframe src="https://www.veed.io/view/6b4cdf7e-c6a5-47b4-b9aa-a65b77e18b02?source=Homepage&panel=share" allowfullscreen></iframe>
 
@@ -110,11 +115,17 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>My Initials</b></p>
           <iframe src="https://www.veed.io/view/71fd024e-414b-4287-b64d-733f4993da62?source=Homepage&panel=share" allowfullscreen></iframe>
-          
+
           <p><b>Spinner Simulation</b></p>
           <iframe src="https://www.veed.io/view/427fd876-1665-4f81-8a1d-68c863542fa7?source=Homepage&panel=share" allowfullscreen></iframe>
+
+          <p><b>Robot Simulation</b></p>
+          <iframe src="https://www.veed.io/view/7a67728f-4ca8-4c2d-95df-196e5159e9d5?source=Homepage&panel=share" allowfullscreen></iframe>
         `;
-      } else if (page === 'documentation') {
+      } 
+
+      
+      else if (page === 'documentation') {
         content.innerHTML = `
           <h1>Documentation</h1>
 
@@ -162,7 +173,10 @@ my contact: demirbekiroglu@hisarschool.k12.tr
 
           <p><b>Spinner Simulation:</b> A Swift project simulating a spinner with nested conditionals. The video shows how the spinner chooses a color and displays it.</p>
         `;
-      } else if (page === 'bigideas') {
+      } 
+
+      
+      else if (page === 'bigideas') {
         content.innerHTML = `
           <h1>Big Ideas</h1>
 
@@ -198,8 +212,11 @@ my contact: demirbekiroglu@hisarschool.k12.tr
       }
     }
   </script>
+
 </body>
 </html>
+
+
 
 
 
