@@ -175,23 +175,6 @@ content.innerHTML = `
 
 <h1>Big Ideas</h1>
 
-<h2>Collaborating</h2>
-<p>We worked together as a team...</p>
-
-<h2>Program Design & Development</h2>
-<p>I made a simple plan with clear steps...</p>
-
-<h2>Program Function & Purpose</h2>
-<p>I set a clear goal, thought about the users...</p>
-
-<h2>Finding & Fixing Mistakes</h2>
-<p>I ran small tests, checked different situations...</p>
-
-else if (page === 'bigideas') {
-content.innerHTML = `
-
-<h1>Big Ideas</h1>
-
 <h2>Big Idea 1: Creative Development</h2>
 <p>I developed projects by planning, testing, and improving ideas step by step.</p>
 
@@ -209,20 +192,12 @@ content.innerHTML = `
 
 <hr>
 
-<p><b>Big Idea 2 Video:</b></p>
-<iframe src="https://www.veed.io/view/22f6a870-f27f-4752-a8f3-f952d67a2640?source=Homepage&panel=share" allowfullscreen></iframe>
-
-`;
-}
-
-<hr>
 <h1>Big Idea 2</h1>
 <p><b>Big Idea 2 Video:</b></p>
 <iframe src="https://www.veed.io/view/22f6a870-f27f-4752-a8f3-f952d67a2640?source=Homepage&panel=share" allowfullscreen></iframe>
 
 <h2>Algorithms & Programming</h2>
 <p>I used simple algorithms...</p>
-
 <h2>Variables & Data</h2>
 <p>I used variables to store and change information...</p>
 
@@ -234,13 +209,8 @@ content.innerHTML = `
 
 `;
 }
-
 }
 </script>
 
 </body>
 </html>
-
-    
-
-
