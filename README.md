@@ -111,6 +111,9 @@ Press for Codes
 
 <p><b>Rock paper scissors</b></p>
 <iframe src="https://www.veed.io/view/fe4290b7-ee69-46b7-a528-8f563312b66f?source=Homepage&panel=share"></iframe>
+
+<p><b>EcoTracker</b></p>
+<iframe src="https://www.veed.io/view/886dbfe1-8484-43fb-aaef-d8616ff1cda6?source=Dashboard&panel=share"></iframe>
 `;
 }
 
