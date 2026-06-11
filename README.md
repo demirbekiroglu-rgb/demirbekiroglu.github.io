@@ -184,6 +184,34 @@ content.innerHTML = `
 <h2>Finding & Fixing Mistakes</h2>
 <p>I ran small tests, checked different situations...</p>
 
+else if (page === 'bigideas') {
+content.innerHTML = `
+
+<h1>Big Ideas</h1>
+
+<h2>Big Idea 1: Creative Development</h2>
+<p>I developed projects by planning, testing, and improving ideas step by step.</p>
+
+<h2>Big Idea 2: Data</h2>
+<p>I used and organized data with variables, lists, and simple data structures.</p>
+
+<h2>Big Idea 3: Algorithms & Programming</h2>
+<p>I created programs using algorithms, conditionals, loops, and functions.</p>
+
+<h2>Big Idea 4: Computer Systems & Networks</h2>
+<p>I learned how computers, hardware, software, and networks work together.</p>
+
+<h2>Big Idea 5: Impact of Computing</h2>
+<p>I explored how computing affects people, society, communication, and innovation.</p>
+
+<hr>
+
+<p><b>Big Idea 2 Video:</b></p>
+<iframe src="https://www.veed.io/view/22f6a870-f27f-4752-a8f3-f952d67a2640?source=Homepage&panel=share" allowfullscreen></iframe>
+
+`;
+}
+
 <hr>
 <h1>Big Idea 2</h1>
 <p><b>Big Idea 2 Video:</b></p>
