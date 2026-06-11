@@ -178,11 +178,20 @@ content.innerHTML = `
 <h2>Big Idea 1: Creative Development</h2>
 <p>I developed projects by planning, testing, and improving ideas step by step.</p>
 
+<p><b>Big Idea 1 Video:</b></p>
+<iframe src="https://www.veed.io/view/acc59d66-6c2b-41b3-9b83-735c7f277289?source=Dashboard&panel=share" allowfullscreen></iframe>
+
 <h2>Big Idea 2: Data</h2>
 <p>I used and organized data with variables, lists, and simple data structures.</p>
 
+<p><b>Big Idea 2 Video:</b></p>
+<iframe src="https://www.veed.io/view/eb1ce334-f328-4a3f-ab80-5d4ef5f55459?source=Dashboard&panel=share" allowfullscreen></iframe>
+
 <h2>Big Idea 3: Algorithms & Programming</h2>
 <p>I created programs using algorithms, conditionals, loops, and functions.</p>
+
+<p><b>Big Idea 3 Video:</b></p>
+<iframe src="https://www.veed.io/view/0801b82d-aab9-4fa5-a255-595710c1f6f8?source=Dashboard&panel=share" allowfullscreen></iframe>
 
 <h2>Big Idea 4: Computer Systems & Networks</h2>
 <p>I learned how computers, hardware, software, and networks work together.</p>
@@ -192,12 +201,9 @@ content.innerHTML = `
 
 <hr>
 
-<h1>Big Idea 2</h1>
-<p><b>Big Idea 2 Video:</b></p>
-<iframe src="https://www.veed.io/view/22f6a870-f27f-4752-a8f3-f952d67a2640?source=Homepage&panel=share" allowfullscreen></iframe>
-
 <h2>Algorithms & Programming</h2>
 <p>I used simple algorithms...</p>
+
 <h2>Variables & Data</h2>
 <p>I used variables to store and change information...</p>
 
@@ -209,8 +215,3 @@ content.innerHTML = `
 
 `;
 }
-}
-</script>
-
-</body>
-</html>
